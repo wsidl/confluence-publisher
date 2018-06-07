@@ -233,7 +233,11 @@ class AllEntitiesXMLParser(object):
     known_entity = {
         'nbsp': 'nbsp',
         'ldquo': 'ldquo',
-        'rdquo': 'rdquo'
+        'rdquo': 'rdquo',
+        'lsquo': 'lsquo',
+        'rsquo': 'rsquo',
+        'ndash': 'ndash',
+        'para': 'para'
     }
 
     def __init__(self, *args, **kwargs):
